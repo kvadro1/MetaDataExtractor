@@ -1,3 +1,4 @@
+package ru.ilb.metadataextractor.test;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -5,8 +6,8 @@ import java.nio.file.Paths;
 import org.junit.Assert;
 import org.junit.Test;
 
-import constants.TextsConstantsForTests;
-import entities.JPEGMetadataExtractor;
+import ru.ilb.metadataextractor.constants.TextsConstantsForTests;
+import ru.ilb.metadataextractor.core.JPEGMetadataExtractor;
 
 public class JPEGMetadataExtractorTest {
 

@@ -1,4 +1,4 @@
-package entities;
+package ru.ilb.metadataextractor.core;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
@@ -13,9 +13,9 @@ import com.drew.imaging.ImageMetadataReader;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.xmp.XmpDirectory;
 
-import except.CreateObjectError;
-import except.GetPropertyError;
-import interfaces.MetadataExtractor;
+import ru.ilb.metadataextractor.entities.MetadataExtractor;
+import ru.ilb.metadataextractor.exceptions.CreateObjectError;
+import ru.ilb.metadataextractor.exceptions.GetPropertyError;
 
 public class JPEGMetadataExtractor implements MetadataExtractor {
 	private String schema = "http://ns.adobe.com/xap/1.0/";// just simple/ in constructor we read name space

@@ -1,4 +1,4 @@
-package entities;
+package ru.ilb.metadataextractor.core;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -9,9 +9,9 @@ import java.util.Set;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.PDDocumentInformation;
 
-import except.CreateObjectError;
-import except.GetPropertyError;
-import interfaces.MetadataExtractor;
+import ru.ilb.metadataextractor.entities.MetadataExtractor;
+import ru.ilb.metadataextractor.exceptions.CreateObjectError;
+import ru.ilb.metadataextractor.exceptions.GetPropertyError;
 
 public class PDFMetadataExtractor implements MetadataExtractor {
 
