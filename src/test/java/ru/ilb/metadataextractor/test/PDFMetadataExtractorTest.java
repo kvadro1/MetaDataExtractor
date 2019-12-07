@@ -1,3 +1,4 @@
+package ru.ilb.metadataextractor.test;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.net.URL;
@@ -8,8 +9,8 @@ import java.util.HashMap;
 import org.junit.Assert;
 import org.junit.Test;
 
-import constants.TextsConstantsForTests;
-import entities.PDFMetadataExtractor;
+import ru.ilb.metadataextractor.constants.TextsConstantsForTests;
+import ru.ilb.metadataextractor.core.PDFMetadataExtractor;
 
 public class PDFMetadataExtractorTest {
 	public PDFMetadataExtractorTest() {

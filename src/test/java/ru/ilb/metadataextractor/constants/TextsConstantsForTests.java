@@ -1,4 +1,4 @@
-package constants;
+package ru.ilb.metadataextractor.constants;
 
 public class TextsConstantsForTests {
 	public static final String BARCODE = "barcode";

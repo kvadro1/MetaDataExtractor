@@ -1,8 +1,8 @@
-package interfaces;
+package ru.ilb.metadataextractor.entities;
 
 import java.util.Map;
 
-import except.GetPropertyError;
+import ru.ilb.metadataextractor.exceptions.GetPropertyError;
 
 /*
  * Copyright 2019 slavb.
